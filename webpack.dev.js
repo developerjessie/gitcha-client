@@ -14,8 +14,10 @@ module.exports = merge(common, {
     static: {
       directory: path.join(__dirname, "build"),
     },
+    contentBase: path.join(__dirname, "build"),
     compress: true,
-    port: 3000,
+    host: "localhost",
+    port: "3000",
     historyApiFallback: true,
   },
   module: {

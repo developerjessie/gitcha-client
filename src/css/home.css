@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  z-index: 1;
+}
+
+.start-btn {
+  background-color: aqua;
+}

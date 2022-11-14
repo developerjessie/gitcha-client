@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --open --env=development",
-    "build": "webpack --env=production"
+    "start": "webpack-dev-server --open mode=development",
+    "build": "webpack --config webpack.dev.js",
+    "build:prod": "webpack --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
